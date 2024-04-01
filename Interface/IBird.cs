@@ -11,5 +11,6 @@ namespace Interface
         string Color { get; set; }
         string Sound { get; set; }
         string Age { get; set; }
+        string GetBirdInfo();
     }
 }

@@ -18,7 +18,7 @@ namespace Interface
             myDuck.Color = txtColor.Text;
             myDuck.Sound = txtSound.Text;
             myDuck.Age = txtAge.Text;
-            lblSave.Text = myDuck.Name + " " + myDuck.Color + " " + myDuck.Sound + " " + myDuck.Age;
+            lblSave.Text = myDuck.GetBirdInfo();
         }
     }
 }

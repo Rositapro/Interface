@@ -21,5 +21,10 @@ namespace Interface
         {
             get; set;
         }
+
+        public string GetBirdInfo()
+        {
+            return $"{Name} is a {Color} duck, makes {Sound} sound, and is {Age} years old.";
+        }
     }
 }
